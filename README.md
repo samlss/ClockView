@@ -38,7 +38,7 @@ dependencies {
 
 ### Attributes description：
 
-### Before we describe the attributes, let's look at a attributes piture firstly.
+#### Before we describe the attributes, let's look at a attributes piture firstly.
 ![picture](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot3.png)
 
 | attr        | description           |
@@ -78,6 +78,15 @@ dependencies {
 ```
   mClockView.setTime(hour, minute, second); //Bind the clock to real time.
 ```
+
+### You can use the [ClockHelper.java](https://github.com/samlss/ClcokView/blob/master/library/src/main/java/com/iigo/library/ClockHelper.java) to connect with the real time, and test the go off effect.
+```
+  clockHelper = new ClockHelper(clockView); //create a 'ClockHelper' obj.
+  clockHelper.start(); //Start to bind 'ClockView' to the real time.
+  clockHelper.stop(); //Call this method when you don need to show 'ClockView', may in Activity.onDestroy().
+  clockHelper.goOff(); //text the effect of alarm go off.
+```
+
 
 
 ### License
