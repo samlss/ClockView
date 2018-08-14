@@ -1,21 +1,21 @@
 # ClockView
 A  lovely clock view.
 
-### [中文](https://github.com/samlss/ClcokView/blob/master/README-ZH.md)
+### [中文](https://github.com/samlss/ClockView/blob/master/README-ZH.md)
 
 <br/>
 
-[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ClcokView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/ClcokView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
+[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ClockView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/ClockView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 ### Here's the normal effect:
-![gif1](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot1.gif)
+![gif1](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot1.gif)
 
 ### Here's the effect when the alarm go off:
-![gif2](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot2.gif)
+![gif2](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot2.gif)
 
 
 ### Here's the effect when using custom colors:
-![gif4](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot4.gif)
+![gif4](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot4.gif)
 
 
 ## Use<br>
@@ -32,14 +32,14 @@ allprojects {
 Add it in your app build.gradle at the end of repositories:
 ```
 dependencies {
-    implementation 'com.github.samlss:ClcokView:1.0'
+    implementation 'com.github.samlss:ClockView:1.0'
 }
 ```
 
 ### Attributes description：
 
 #### Before we describe the attributes, let's look at a attributes piture firstly.
-![picture](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot3.png)
+![picture](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot3.png)
 
 | attr        | description           |
 | ------------- |:-------------:|
