@@ -1,20 +1,20 @@
 
-# ClcokView
+# ClockView
 一个可爱的时钟
 
 <br/>
 
-[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ClcokView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/ClcokView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
+[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ClockView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/ClockView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 ### 平常情况下效果:
-![gif1](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot1.gif)
+![gif1](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot1.gif)
 
 ### 闹钟响铃效果:
-![gif2](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot2.gif)
+![gif2](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot2.gif)
 
 
 ### 设置自定义颜色时的效果:
-![gif4](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot4.gif)
+![gif4](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot4.gif)
 
 
 ## Use<br>
@@ -31,14 +31,14 @@ allprojects {
 在app目录下的build.gradle添加依赖使用：
 ```
 dependencies {
-    implementation 'com.github.samlss:ClcokView:1.0'
+    implementation 'com.github.samlss:ClockView:1.0'
 }
 ```
 
 ### 属性说明：
 
 #### 开始属性说明之前，先看一张图
-![picture](https://github.com/samlss/ClcokView/blob/master/screenshots/screenshot3.png)
+![picture](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot3.png)
 
 | 属性        | 说明           |
 | ------------- |:-------------:|
@@ -78,7 +78,7 @@ dependencies {
   mClockView.setTime(hour, minute, second); //将时钟与现实时间绑定
 ```
 
-### 同时你可以使用 [ClockHelper.java](https://github.com/samlss/ClcokView/blob/master/library/src/main/java/com/iigo/library/ClockHelper.java) 将ClockView与现实时间联系并且测试闹钟响铃效果
+### 同时你可以使用 [ClockHelper.java](https://github.com/samlss/ClockView/blob/master/library/src/main/java/com/iigo/library/ClockHelper.java) 将ClockView与现实时间联系并且测试闹钟响铃效果
 ```
   clockHelper = new ClockHelper(clockView); //创建 'ClockHelper' 对象.
   clockHelper.start(); //开始将'ClockView' 与现实时间绑定.
