@@ -84,7 +84,7 @@ dependencies {
   clockHelper = new ClockHelper(clockView); //create a 'ClockHelper' obj.
   clockHelper.start(); //Start to bind 'ClockView' to the real time.
   clockHelper.stop(); //Call this method when you don need to show 'ClockView', may in Activity.onDestroy().
-  clockHelper.goOff(); //text the effect of alarm go off.
+  clockHelper.goOff(); //test the effect of alarm go off.
 ```
 
 
