@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   <Button
+       android:onClick="onGoOff"
+       android:textAllCaps="false"
+       android:text="Clock Go Off"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+      <Button
+          android:onClick="onStartSettingAttrs"
+          android:textAllCaps="false"
+          android:text="Setting Attrs"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </LinearLayout>
+
+   <com.iigo.library.ClockView
+       android:id="@+id/clockView"
+       android:layout_centerInParent="true"
+       android:layout_width="150dp"
+       android:layout_height="150dp" />
+
+</RelativeLayout>

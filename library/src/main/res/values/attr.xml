@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="ear_color" format="color|reference"></attr>
+        <attr name="foot_color" format="color|reference"></attr>
+        <attr name="head_color" format="color|reference"></attr>
+        <attr name="edge_color" format="color|reference"></attr>
+        <attr name="scale_color" format="color|reference"></attr>
+        <attr name="center_point_color" format="color|reference"></attr>
+        <attr name="hour_hand_color" format="color|reference"></attr>
+        <attr name="minute_hand_color" format="color|reference"></attr>
+        <attr name="second_hand_color" format="color|reference"></attr>
+    </declare-styleable>
+</resources>
