@@ -38,7 +38,7 @@ dependencies {
 
 ### Attributes description：
 
-#### Before we describe the attributes, let's look at a attributes piture firstly.
+#### Before describe the attributes, let's look at a attributes piture firstly.
 ![picture](https://github.com/samlss/ClockView/blob/master/screenshots/screenshot3.png)
 
 | attr        | description           |
