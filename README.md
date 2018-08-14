@@ -1,4 +1,4 @@
-# ClcokView
+# ClockView
 A  lovely clock view.
 
 ### [中文](https://github.com/samlss/ClcokView/blob/master/README-ZH.md)
